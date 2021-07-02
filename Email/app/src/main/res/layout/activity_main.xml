@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/To"
+        android:layout_width="match_parent"
+        android:layout_height="59sp"
+        android:layout_marginTop="114sp"
+        android:background="@color/white"
+        android:drawableEnd="@drawable/rectangle"
+        android:padding="20sp"
+        android:hint="To:"/>
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginTop="188sp"
+        android:background="@color/white"
+        android:drawableEnd="@drawable/rectangle"
+        android:padding="20sp"
+        android:hint="Email Id::"/>
+    <EditText
+        android:id="@+id/Contant"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_marginTop="299sp"
+        android:background="@color/white"
+        android:drawableEnd="@drawable/rectangle"
+        android:padding="20sp"
+        android:hint="Message:"/>
+    <Button
+        android:layout_width="156sp"
+        android:layout_height="72sp"
+        android:layout_marginTop="490sp"
+        android:layout_marginStart="98sp"
+        android:textAllCaps="false"
+        android:text="Send"/>
+
+
+
+
+
+
+
+</RelativeLayout>
